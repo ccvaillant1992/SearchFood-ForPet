@@ -1,6 +1,6 @@
 # SearchFood-PetStore
 
-Sitio web que tiene como propósito ayudar a un usuario a agilizar los procesos de búsqueda y comparación de alimentos ofrecidos por diferentes tiendas y elegir el tipo de alimentación que más se ajusta para la nutrición óptima de su mascota. [Acceda a este enlace, para seguir leyendo](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/Descripci%C3%B3nDelProyecto.md) 
+Sistema web de recomendación que tiene como propósito ayudar a un usuario a agilizar los procesos de búsqueda y comparación de alimentos ofrecidos por diferentes tiendas y elegir el tipo de alimentación que más se ajusta para la nutrición óptima de su mascota. [Acceda a este enlace, para seguir leyendo](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/Descripci%C3%B3nDelProyecto.md) 
 
 # Planificación
 
