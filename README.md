@@ -15,7 +15,7 @@ Para el desarrollo del proyecto, se realizó la siguiente propuesta de planifica
 
 ### R2 [Hitos que describen un producto mínimamente viable](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/PMV.md)
 
-### R3 [Creación de clases avanzando el proyecto en las HU]()
+### R3 [Creación de clases avanzando el proyecto en las HU](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/cc.yaml)
 
 
 
