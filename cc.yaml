@@ -1,0 +1,9 @@
+---
+entidad:
+ - models/Pet.cs
+ - models/User.cs
+ - models/Food.cs
+ - models/Store.cs
+ - models/Food_Store.cs
+ - models/Evaluation.cs
+ - models/Record.cs
