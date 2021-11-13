@@ -2,21 +2,25 @@
 
 Sitio web de venta de alimentos para mascotas que tiene como propósito no solo la venta de alimentos, también ayuda a sus usuarios a adquirir los alimentos apropiados para sus mascotas entre la gran variedad de alimentos ofertados. [Acceda a este enlace, para seguir leyendo sobre la lógica de negocio](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md) 
 
-# Planificación
+# Revisión de la Planificación realizada
 
-Para el desarrollo del proyecto, se realizó la siguiente propuesta de planificación teniendo en cuenta los diferentes Productos Mínimamente Viables [PMV](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/PMV.md) e Historias de Usuarios [HU](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/HU.md) por cada rol identificado.
+:white_check_mark: [Correción de la descripción de la lógica de negocio entregada anteriormente](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md)
 
+:white_check_mark: [Corrección de los Hitos que describen un producto mínimamente viable](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/PMV.md)
 
-## Accesso a cada referencia del reenvío de la entrega número 2:
+:white_check_mark: [Corrección de las Historias de usuario asignadas un hito](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/HU.md)
 
-### R0 [Correción de la descripción de la lógica de negocio entregada anteriormente](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/Descripci%C3%B3nDelProyecto.md)
+:white_check_mark: [Corrección de las clases de entidades del sistema](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/cc.yaml)
 
-### R1 [Historias de usuario asignadas un hito](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/HU.md)
+# Acceso a cada referencia para la entrega correspondiente a los Tests:
 
-### R2 [Hitos que describen un producto mínimamente viable](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/PMV.md)
+### R1 [Elección y configuración del gestor de tareas]()
 
-### R3 [Creación de clases avanzando el proyecto en las HU](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/cc.yaml)
+### R2 [Elección y uso de la biblioteca de aserciones]()
 
+### R3 [Elección y uso del marco de pruebas]()
+
+### R4 [Relación entre avance de código (incluyendo los tests) e HUs]()
 
 
 
