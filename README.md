@@ -1,6 +1,6 @@
-# SearchFood-PetStore
+# :meat_on_bone: SearchFood-ForPet :smiley_cat: :dog:
 
-Sistema web de recomendación que tiene como propósito ayudar a un usuario a agilizar los procesos de búsqueda y comparación de alimentos ofrecidos por diferentes tiendas y elegir el tipo de alimentación que más se ajusta para la nutrición óptima de su mascota. [Acceda a este enlace, para seguir leyendo](https://github.com/ccvaillant1992/SearchFood-PetStore/blob/master/docs/Descripci%C3%B3nDelProyecto.md) 
+Sitio web de venta de alimentos para mascotas que tiene como propósito no solo la venta de alimentos, también ayuda a sus usuarios a adquirir los alimentos apropiados para sus mascotas entre la gran variedad de alimentos ofertados. [Acceda a este enlace, para seguir leyendo sobre la lógica de negocio](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md) 
 
 # Planificación
 
