@@ -7,4 +7,6 @@ entidad:
 lenguaje: C#
 test:
   - SearchFood-ForPet.Tests/FoodTests.cs
+  - PredictionsTests.cs
+  - RecomendationsTest.cs
 fichero_tareas: SearchFood-ForPet/package.json
