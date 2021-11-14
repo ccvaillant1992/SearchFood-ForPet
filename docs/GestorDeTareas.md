@@ -20,7 +20,7 @@ Vea a continuación el [Gestor de Tareas](https://github.com/ccvaillant1992/Sear
 
 ![build](./img/build.png)
 
-![test](./img/tests.png)
+![tests](./img/tests.png)
 
 
 
