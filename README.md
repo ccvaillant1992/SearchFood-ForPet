@@ -14,7 +14,7 @@ Sitio web de venta de alimentos para mascotas que tiene como propósito no solo 
 
 # Acceso a cada referencia para la entrega correspondiente a los Tests:
 
-### R1 [Elección y configuración del gestor de tareas]()
+### R1 [Elección y configuración del gestor de tareas](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/GestorDeTareas.md)
 
 ### R2 [Elección y uso de la biblioteca de aserciones](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/BibliotecaAserciones.md)
 
