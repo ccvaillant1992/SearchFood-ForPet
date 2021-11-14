@@ -13,7 +13,7 @@ Utilizando el lenguaje de programación C# con el framework .NET en mi proyecto,
 
 Como conclusión, para el desarrollo de mi proyecto he decidido emplear el marco de prueba xUnit no solo por su simplicidad de uso, sino que también xUnit es una herramienta gratuita centrada en la comunidad de código abierto de .Net. y una carcaterística muy útil sobre todo si el proyecto a desarrollar es una Web API .Net Core, es, que combinado con la librería Moq, crean una plataforma muy flexible, extensible y muy potente para implementar pruebas automatizadas.
 
-![image](https://github.com/ccvaillant1992/SearchFood-ForPet/tree/master/docs/img/xUnit.png)
+![image](./img/xUnit.png)
 
 
 
