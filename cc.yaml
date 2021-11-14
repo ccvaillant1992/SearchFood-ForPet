@@ -4,9 +4,14 @@ entidad:
   - SearchFood-ForPet/models/Food.cs
   - SearchFood-ForPet/models/Record.cs
   - SearchFood-ForPet/Controllers/SearchFood_ForPetController.cs
-lenguaje: C#
+
+lenguaje: 
+  - C#
+
+fichero_tareas: 
+  - SearchFood-ForPet/package.json
+
 test:
   - SearchFood-ForPet.Tests/FoodTests.cs
   - PredictionsTests.cs
   - RecomendationsTest.cs
-fichero_tareas: SearchFood-ForPet/package.json
