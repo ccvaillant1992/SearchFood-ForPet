@@ -16,11 +16,11 @@ Sitio web de venta de alimentos para mascotas que tiene como propósito no solo 
 
 ### R1 [Elección y configuración del gestor de tareas]()
 
-### R2 [Elección y uso de la biblioteca de aserciones]()
+### R2 [Elección y uso de la biblioteca de aserciones](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/BibliotecaAserciones.md)
 
-### R3 [Elección y uso del marco de pruebas]()
+### R3 [Elección y uso del marco de pruebas](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/MarcoDePrueba.md)
 
-### R4 [Relación entre avance de código (incluyendo los tests) e HUs]()
+### R4 [Relación entre avance de código (incluyendo los tests) e HUs](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/cc.yaml)
 
 
 
