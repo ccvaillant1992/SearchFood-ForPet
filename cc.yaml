@@ -1,17 +1,10 @@
-entidad: 
-  - SearchFood-ForPet/models/Pet.cs 
+entidad:
+  - SearchFood-ForPet/models/Pet.cs
   - SearchFood-ForPet/models/User.cs
   - SearchFood-ForPet/models/Food.cs
   - SearchFood-ForPet/models/Record.cs
-
-lenguaje: 
-  - C#
-
-test: 
-  - SearchFood-ForPet.Tests/FoodTests.cs
-
-fichero_tareas: 
-  - SearchFood-ForPet/package.json
-
-controller: 
   - SearchFood-ForPet/Controllers/SearchFood_ForPetController.cs
+lenguaje: C#
+test:
+  - SearchFood-ForPet.Tests/FoodTests.cs
+fichero_tareas: SearchFood-ForPet/package.json
