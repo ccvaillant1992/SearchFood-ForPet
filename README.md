@@ -1,6 +1,6 @@
-# :meat_on_bone: SearchFood-ForPet :smiley_cat: :dog:
+# :meat_on_bone: SearchFood-ForPet :dog:
 
-Sitio web de venta de alimentos para mascotas que tiene como propósito no solo la venta de alimentos, también ayuda a sus usuarios a adquirir los alimentos apropiados para sus mascotas entre la gran variedad de alimentos ofertados. [Acceda a este enlace, para seguir leyendo sobre la lógica de negocio](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md) 
+_**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas para mascotas. Este sistema ayuda a sus usuarios a adquirir los tipos alimentos apropiados para sus mascotas entre la gran variedad ofertada. [Acceda a este enlace, para seguir leyendo sobre la lógica de negocio](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md) 
 
 # Revisión de la Planificación realizada
 
