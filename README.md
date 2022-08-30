@@ -15,6 +15,13 @@ _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas
 
 [7](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/7) ,  [22](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/22) , [38](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/38) ,[39](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/39) ,  [40](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/40)
 
+## Acceso a cada referencia para la entrega 2 correspondiente a la planificación del proyecto :
+
+#### R1 [Historias de Usuario](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/HU.md)
+
+#### R2 [Descripción de los PMVs](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/PMV.md)
+
+#### R3 [Entidades del sistema](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/cc.yaml)
 
 
 
