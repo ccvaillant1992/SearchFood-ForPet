@@ -9,7 +9,7 @@ lenguaje:
   - C#
 
 fichero_tareas: 
-  - SearchFood-ForPet/build.cake
+  - SearchFood-ForPet/Nake.csx
 
 test:
   - SearchFood-ForPet.Tests/Factory/RecommendationCoreTests.cs
