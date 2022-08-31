@@ -32,7 +32,8 @@
         Sterilized = 4,
         Urinary = 5,
         HairAndSkin = 6,
-        JointReinforcement = 7
+        JointReinforcement = 7,
+        Healthy = 8
     }
 
     public class PetModel
@@ -46,7 +47,7 @@
         public PetActivityLevel Activity { get; set; }
         public List<PetHealthCondition> HealthCondition { get; set; }
 
-        public PetModel(int idPet, int idUser, double weight, PetAge age, PetBreedSize size, PetSex sex, PetActivityLevel activity)
+        public PetModel(int idPet, int idUser, double weight, PetAge age, PetBreedSize size, PetSex sex, PetActivityLevel activity, List<PetHealthCondition> conditions)
         {
             IdPet = idPet;
             IdUser = idUser;
@@ -55,7 +56,7 @@
             Size = size;
             Sex = sex;
             Activity = activity;
-            HealthCondition = new List<PetHealthCondition>();
+            HealthCondition = conditions;
         }
     }
 }

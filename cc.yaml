@@ -9,7 +9,7 @@ lenguaje:
   - C#
 
 fichero_tareas: 
-  - SearchFood-ForPet/gulpfile.js
+  - Nake.csx
 
 test:
   - SearchFood-ForPet.Tests/Factory/RecommendationCoreTests.cs
