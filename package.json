@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "searchfood-forpet",
-  "description": "A website that sells food and offers recommendations of food",
+  "description": "Sistema de recomendación de dietas personalizadas para mascotas",
   "private": true,
   "devDependencies": {},
   "scripts": {

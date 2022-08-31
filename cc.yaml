@@ -2,7 +2,15 @@ entidad:
   - SearchFood-ForPet/Models/PetModel.cs
   - SearchFood-ForPet/Models/UserModel.cs
   - SearchFood-ForPet/Models/FoodModel.cs
+  - SearchFood-ForPet/Factory/IndexAndDistance.cs
+  - SearchFood-ForPet/Factory/RecommendationCore.cs
 
 lenguaje: 
   - C#
+
+fichero_tareas: 
+  - SearchFood-ForPet/package.json
+
+test:
+  - SearchFood-ForPet.Tests/Factory/RecommendationCoreTests.cs
 
