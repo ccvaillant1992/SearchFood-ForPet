@@ -2,38 +2,54 @@
 
 Con el uso de un gestor de tareas puedo realizar scripts definidos de manera repetitiva y muy fácil, brindándome la posibilidad de ejecutar comandos que me permiten realizar la construcción de mi proyecto, restaurar sus dependencias y ejecutar los tests unitarios realizados de manera rápida.
 
-Como gestor de tareas para mi proyecto he elegido Nake. Nake es una herramienta de ejecución de tareas para .NET, que puede ser empleada para tareas como compilar el código del proyecto, restaurarlo, ejecutar tests unitarios, entre otras opciones. Es muy sencillo y compatible con proyectos ASP.Net Core en Visual Studio y Visual Studio Code. 
+Existen diversos gestores de tareas compatibles con el framework .Net. En [este](https://dotnet.libhunt.com/categories/1777-build-automation) listado comparativo se pueden revisar. 
+ 
+De las alternativas antes mencionadas, como gestor de tareas para mi proyecto he elegido Cake(C# Make). No solo por la popularidad que tiene esta herramienta, sino también que Cake es un sistema de automatización de compilación multiplataforma gratuito y de código abierto con C# DSL, que puede ser empleado para tareas como compilar el código del proyecto, restaurarlo, ejecutar tests unitarios, entre otras opciones. Es muy sencillo y compatible con proyectos ASP.Net Core en Visual Studio y Visual Studio Code. En [esta](https://cakebuild.net/docs/running-builds/runners/) documentación se puede apreciar la compatibilidad que tiene Cake con nuevas versiones del framework .Net como es .net6, diferentes sistemas operativos soportados(Windows, macOs y Linux), además de su compatibilidad con reconocidos sistemas de integración continua como por ejemplo: Azure Pipelines, Git Hub Actions, TravisCI, entre otros.
 
-Existen otros gestores de tareas como grunt, Gulp, empleados en otros lenguejes de programación y además, otras alternativas a Nake, que se pueden revisar [aquí](https://dotnet.libhunt.com/nake-alternatives). 
 
-Para la instalación de la herramienta Nake, lo primero que realicé fue ejecutar el siguiente comando:
+- Para la instalación de la herramienta Cake, lo primero que realicé fue asegurarme de tener la herramienta manifest disponible en el repositorio:
 
-![install](./img/nake/install.png)
+![manifest](./img/cake/manifest.png)
 
-Por último creé el archivo llamado Nake.csx y añadí los comandos a ejecutar en el script:
+- Posteriormente instalé Cake con el siguiente comando:
 
-```
-dotnet restore 
+![install](./img/cake/install.png)
 
-dotnet build 
-
-dotnet test 
+- Por último creé el archivo llamado build.cake y añadí los comandos a ejecutar en el script:
 
 ```
+dotnet restore
 
-Vea a continuación el [Gestor de Tareas](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/Nake.csx) definido y la ejecución de los comandos mencionados anteriormente:
+dotnet build
+
+dotnet test
+
+```
+- Vea a continuación el [Gestor de Tareas](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/build.cake) definido y la ejecución de los comandos mencionados anteriormente:
 
 - Restaurar las dependencias empleadas en el archivo .csproj
 
-![restore](./img/nake/restore.png)
+![restore](./img/cake/restore.png)
 
 - Construcción de mi proyecto
 
-![build](./img/nake/build.png)
+![build](./img/cake/build.png)
 
 - Ejecución de los tests unitarios definidos en el proyecto
 
-![tests](./img/nake/test.png)
+![tests](./img/cake/test.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

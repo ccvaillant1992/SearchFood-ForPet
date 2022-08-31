@@ -1,0 +1,15 @@
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\bin\Release\net6.0\SearchFoodForPet.exe
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\bin\Release\net6.0\SearchFoodForPet.deps.json
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\bin\Release\net6.0\SearchFoodForPet.runtimeconfig.json
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\bin\Release\net6.0\SearchFoodForPet.dll
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\bin\Release\net6.0\ref\SearchFoodForPet.dll
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\bin\Release\net6.0\SearchFoodForPet.pdb
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\SearchFoodForPet.csproj.AssemblyReference.cache
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\SearchFoodForPet.GeneratedMSBuildEditorConfig.editorconfig
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\SearchFoodForPet.AssemblyInfoInputs.cache
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\SearchFoodForPet.AssemblyInfo.cs
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\SearchFoodForPet.csproj.CoreCompileInputs.cache
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\SearchFoodForPet.dll
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\ref\SearchFoodForPet.dll
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\SearchFoodForPet.pdb
+D:\UniversidadGranada\CC1\Repositorio-ProyectoCC\SearchFood-PetStore\SearchFood-ForPet\obj\Release\net6.0\SearchFoodForPet.genruntimeconfig.cache
