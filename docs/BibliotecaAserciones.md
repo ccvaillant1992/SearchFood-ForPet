@@ -10,6 +10,6 @@ Como puedes apreciar, la captura anterior muestra los diferentes métodos que me
 
 También quiero mencionarte el estilo que elegí para la realización de mis test. Este es Behavior Driven Development (BDD). Empleando la estrategia BDD, las pruebas realizadas se centran en el usuario y el comportamiento del sistema. Con el empleo de este estilo apoyado de la librería de aserciones mencionada anteriormente aumenta mi confianza cuando desarrollo el código de mi proyecto. También se que la posibilidad de fallos que presentaré será cada vez menor.
 
-A continuación se muestra una captura del test realizado para la [HU 1 Como administrador, dado que necesito actualizar el catálogo de alimentos, quiero poder añadir información al sistema sobre los nuevos alimentos disponibles](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/5)
+A continuación se muestra una captura del test realizado para la [HU 1 Como usuario del sistema, quiero que SearchFood-ForPet me recomiende una dieta personalizada para mi mascota, para poder cubrir las necesidades nutricionales de mi mascota.](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/5)
 
 ![unitTest](./img/unitTest.png)
