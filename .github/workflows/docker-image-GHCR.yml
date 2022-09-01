@@ -1,10 +1,10 @@
-name: publish
+name: Push Docker image to GHCR
 
 on: 
   workflow_dispatch:
 
 jobs:
-  publish-hello-world-image:
+  push-searchfood-forpet:
     runs-on: ubuntu-latest
 
     steps:
