@@ -40,5 +40,5 @@ jobs:
         file: ./Dockerfile
 
     - name: Run tests on docker image
-      run: docker run productive-dev/searchfood-forpetapp
+      run: docker run ccvaillant/searchfood-forpetapp
    
