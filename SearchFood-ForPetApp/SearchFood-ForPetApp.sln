@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFoodForPet", "SearchFood-ForPet\SearchFoodForPet.csproj", "{C206940B-8941-4AEF-9E5B-1027AE84FD2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFoodForPet.Tests", "SearchFood-ForPet.Tests\SearchFoodForPet.Tests.csproj", "{20D86CEF-B931-4EB1-B158-239ECE3F468D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C206940B-8941-4AEF-9E5B-1027AE84FD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C206940B-8941-4AEF-9E5B-1027AE84FD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C206940B-8941-4AEF-9E5B-1027AE84FD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C206940B-8941-4AEF-9E5B-1027AE84FD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D86CEF-B931-4EB1-B158-239ECE3F468D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D86CEF-B931-4EB1-B158-239ECE3F468D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D86CEF-B931-4EB1-B158-239ECE3F468D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D86CEF-B931-4EB1-B158-239ECE3F468D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAFAB916-6B79-46AF-8397-E133ED961E3F}
+	EndGlobalSection
+EndGlobal

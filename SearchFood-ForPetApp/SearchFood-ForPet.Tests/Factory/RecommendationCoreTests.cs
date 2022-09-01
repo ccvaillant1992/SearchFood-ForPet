@@ -5,7 +5,7 @@ namespace SearchFoodForPet.Tests.Factory
 {
     public class RecommendationCoreTests
     {
-        private readonly RecommendationCore _recommendationObject = new RecommendationCore();
+        private readonly RecommendationCore _recommendationObject = new();
         
         [Fact]
         public void GivenANewPetAndATrainingData_WhenExecuting_RecommendFood_ThenReturnsThePredictedFood()

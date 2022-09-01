@@ -9,7 +9,7 @@ var configuration = Argument("configuration", "Release");
 Task("Restore")
     .Does(() =>
 {
-    DotNetBuild("./SearchFood-ForPet/SearchFoodForPet.csproj", new DotNetBuildSettings
+    DotNetBuild("./SearchFood-ForPetApp/SearchFood-ForPet/SearchFoodForPet.csproj", new DotNetBuildSettings
     {
         Configuration = configuration,
     });
@@ -19,7 +19,7 @@ Task("Build")
     .IsDependentOn("Restore")
     .Does(() =>
 {
-    DotNetBuild("./SearchFood-ForPet/SearchFoodForPet.csproj", new DotNetBuildSettings
+    DotNetBuild("./SearchFood-ForPetApp/SearchFood-ForPet/SearchFoodForPet.csproj", new DotNetBuildSettings
     {
         Configuration = configuration
     });
@@ -29,10 +29,9 @@ Task("Test")
     .IsDependentOn("Build")
     .Does(() =>
 {
-    DotNetTest("./SearchFood-ForPet.Tests/SearchFoodForPet.Tests.csproj", new DotNetTestSettings
+    DotNetTest("./SearchFood-ForPetApp/SearchFood-ForPet.Tests/SearchFoodForPet.Tests.csproj", new DotNetTestSettings
     {
-        Configuration = configuration,
-        NoBuild = true,
+        Configuration = configuration
     });
 });
 
