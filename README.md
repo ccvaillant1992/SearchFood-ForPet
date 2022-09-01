@@ -1,5 +1,6 @@
 # :meat_on_bone: SearchFood-ForPet :dog:
-[![Build Status](https://github.com/ccvaillant1992/SearchFood-ForPet/workflows/docker-image-GHCR/badge.svg)](https://github.com/ccvaillant1992/SearchFood-ForPet/actions)
+
+[![Build Status](https://github.com/ccvaillant1992/SearchFood-ForPet/actions/workflows/docker-image-GHCR.yml/badge.svg)](https://github.com/ccvaillant1992/SearchFood-ForPet/actions/workflows/docker-image-GHCR.yml)
 
 _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas para mascotas. Este sistema ayuda a sus usuarios a adquirir los tipos alimentos apropiados para sus mascotas entre la gran variedad ofertada. 
 [Acceda a este enlace, para seguir leyendo sobre la lógica de negocio](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md) 
