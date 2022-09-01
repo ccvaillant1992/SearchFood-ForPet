@@ -15,8 +15,8 @@ jobs:
         echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
 
-    # - name: Build the hello-world Docker image
-    #   run: |
-    #     docker build . --tag ghcr.io/jonashackt/hello-world:latest
-    #     docker run ghcr.io/jonashackt/hello-world:latest
-    #     docker push ghcr.io/jonashackt/hello-world:latest
+    - name: Build the SearchFood-ForPet Docker image
+      run: |
+        docker build . --tag ghcr.io/ccvaillant1992/SearchFood-ForPet:latest
+        docker run ghcr.io/ccvaillant1992/SearchFood-ForPet:latest
+        docker push ghcr.io/ccvaillant1992/SearchFood-ForPet:latest
