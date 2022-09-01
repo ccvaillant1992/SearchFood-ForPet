@@ -5,7 +5,7 @@
 _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas para mascotas. Este sistema ayuda a sus usuarios a adquirir los tipos alimentos apropiados para sus mascotas entre la gran variedad ofertada. 
 [Acceda a este enlace, para seguir leyendo sobre la lógica de negocio](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md) 
 
-## Acceso a cada referencia para la entrega 1 correspondiente a la definición de la **Descripción del problema a resolver y usos de git y GitHub** :
+## **Descripción del problema a resolver y usos de git y GitHub** :
 
 #### R1 [Repositorio individual creado](https://github.com/ccvaillant1992/SearchFood-ForPet)
 
@@ -17,7 +17,7 @@ _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas
 
 [7](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/7) ,  [22](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/22) , [38](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/38) ,[39](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/39) ,  [40](https://github.com/ccvaillant1992/SearchFood-ForPet/issues/40)
 
-## Acceso a cada referencia para la entrega 2 correspondiente a la **Planificación del proyecto** :
+## **Planificación del Proyecto** :
 
 #### R1 [Historias de Usuario](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/HU.md)
 
@@ -25,7 +25,7 @@ _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas
 
 #### R3 [Entidades del sistema](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/cc.yaml)
 
-## Acceso a cada referencia para la entrega 3 correspondiente a los **Tests** :
+## **Tests** :
 
 #### R1 [Elección y configuración del gestor de tareas](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/GestorDeTareas.md)
 
@@ -35,6 +35,17 @@ _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas
 
 #### R4 [Avance de código (incluyendo los tests) e HUs](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/cc.yaml)
 
+## **Creación de un contenedor para pruebas** :
+
+#### R1 [Elección del contenedor base](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/ElecciónContenedorBase.md)
+
+#### R2 [Dockerfile](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/Dockerfile)
+
+#### R3 [Publicación del contenedor a Docker Hub](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/PublicaciónContenedor-DockerHub.md)
+
+#### R4 [Publicación del contenedor a GitHub Container Registry](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/PublicaciónContenedor-GitHubContainerRegistry.md)
 
 
+## Licencia
+* [Licencia](LICENSE)
 
