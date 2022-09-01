@@ -1,4 +1,4 @@
-name: Push Docker image to GHCR
+name: Build Status
 
 on: 
   workflow_dispatch:
