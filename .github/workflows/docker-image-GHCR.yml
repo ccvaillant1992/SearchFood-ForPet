@@ -17,6 +17,6 @@ jobs:
 
     - name: Build the SearchFood-ForPet Docker image
       run: |
-        docker build . --tag ghcr.io/ccvaillant1992/SearchFood-ForPet:latest
-        docker run ghcr.io/ccvaillant1992/SearchFood-ForPet:latest
-        docker push ghcr.io/ccvaillant1992/SearchFood-ForPet:latest
+        docker build . --tag ghcr.io/ccvaillant1992/searchfood-forpet:latest
+        docker run ghcr.io/ccvaillant1992/searchfood-forpet:latest
+        docker push ghcr.io/ccvaillant1992/searchfood-forpet:latest
