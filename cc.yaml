@@ -12,5 +12,5 @@ fichero_tareas:
 test:
   - SearchFood-ForPetApp/SearchFood-ForPet.Tests/Factory/RecommendationCoreTests.cs
 
-make: ./build.cake
+make: build.cake
 
