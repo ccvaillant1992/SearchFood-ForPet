@@ -1,9 +1,15 @@
 # :meat_on_bone: SearchFood-ForPet :dog:
 
-[![Build Status](https://github.com/ccvaillant1992/SearchFood-ForPet/actions/workflows/docker-image.yml/badge.svg)](https://github.com/ccvaillant1992/SearchFood-ForPet/actions/workflows/docker-image.yml)
+[![Build Status](https://github.com/ccvaillant1992/SearchFood-ForPet/actions/workflows/docker-image-GHCR.yml/badge.svg)](https://github.com/ccvaillant1992/SearchFood-ForPet/actions/workflows/docker-image-GHCR.yml)
+
+[![Publish Docker Image to DockerHub](https://github.com/ccvaillant1992/SearchFood-ForPet/actions/workflows/docker-image.yml/badge.svg)](https://github.com/ccvaillant1992/SearchFood-ForPet/actions/workflows/docker-image.yml)
 
 _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas para mascotas. Este sistema ayuda a sus usuarios a adquirir los tipos alimentos apropiados para sus mascotas entre la gran variedad ofertada. 
 [Acceda a este enlace, para seguir leyendo sobre la lógica de negocio](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md) 
+
+- Para hacer uso de la aplicación ejecute el siguiente comando:
+
+> dotnet cake
 
 ## **Descripción del problema a resolver y usos de git y GitHub** :
 
@@ -45,6 +51,13 @@ _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas
 
 #### R4 [Publicación del contenedor a GitHub Container Registry](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/PublicaciónContenedor-GitHubContainerRegistry.md)
 
+## **Integración continua** :
+
+#### R1 [Integración Continua a través de TravisCI](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/Integraci%C3%B3nContinua-Travis.md)
+
+#### R2 [Integración Continua a través de GitHub Container Registry](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/PublicaciónContenedor-GitHubContainerRegistry.md)
+
+> R3 y R4 se hayan contempladas en el desarrollo de las rúbricas R1 y R2
 
 ## Licencia
 * [Licencia](LICENSE)
