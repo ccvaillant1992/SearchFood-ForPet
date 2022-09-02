@@ -16,11 +16,11 @@ La GitHub Action que permite la publicación a Docker Hub del contenedor y confi
 
 - Ejecución de la GitHub Action definida
 
-![githubaction](./img/dockerhub/githubaction.png)
+![githubaction](./img/githubaction/githubaction.png)
 
-![build](./img/dockerhub/build.png)
+![build](./img/githubaction/build.png)
 
-![test](./img/dockerhub/test.png)
+![test](./img/githubaction/test.png)
 
 
 
