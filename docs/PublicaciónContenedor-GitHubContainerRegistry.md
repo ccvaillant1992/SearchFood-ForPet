@@ -1,15 +1,22 @@
 ## Publicación del Contenedor a Git Hub Container Registry
 
+Para la realización de la publicación del contenedor base definido en el proyecto y su actualización automática además de emplear Docker Hub, he empeleado Git Hub Container Registry. Una de las razones de mi elección, además de la simplicidad de su funcionamiento, es que esta acción se encuentra disponible con GitHub Free. Además permite subir imagánes de Docker a GitHub Packages, mostrándose en el mismo repositorio si es especificada con visibilidad pública, y dando acceso a otras personas hacer uso de ellas. 
 
+Los pasos que realicé para la configuración son los siguientes:
 
-- Restaurar las dependencias empleadas en el archivo .csproj
+- Configuración de un PAT(Pesonal Access Token), solo con posibilidad de acceder al repositorio y administrar los paquetes
 
+![pat](./img/ghcr/pat.png)
 
+- La GitHub Action que permite la publicación del contenedor base en GitHub Container Registry y su actualización automática es [esta](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/.github/workflows/docker-image-GHCR.yml).
 
-- Construcción de mi proyecto
+- Ejecución de la GitHub Action definida
 
+![ghcr](./img/ghcr/ghcr.png)
 
+- Imagen subida a la sección GitHub packages en el repositorio
 
-- Ejecución de los tests unitarios definidos en el proyecto
+![package](./img/ghcr/package.png)
+
 
 
