@@ -5,7 +5,7 @@ dotnet: 6.0
 before_install:
  - sudo apt-get update
 install:
- - dotnet restore ./SearchFood-ForPetApp/SearchFood-ForPet/SearchFoodForPet.csproj
+ - dotnet new tool-manifest --force
+ - dotnet tool install Cake.Tool --version 2.2.0
 script:
- - dotnet build ./SearchFood-ForPetApp/SearchFood-ForPet/SearchFoodForPet.csproj --configuration Release
- - dotnet test ./SearchFood-ForPetApp/SearchFood-ForPet.Tests/SearchFoodForPet.Tests.csproj --configuration Release
+ - dotnet cake build.cake
