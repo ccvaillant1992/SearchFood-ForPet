@@ -1,3 +1,11 @@
-language: minimal
-
-script: /bin/true
+language: csharp
+sudo: required 
+mono: none 
+dotnet: 6.0
+before_install:
+ - sudo apt-get update
+install:
+ - dotnet restore ./SearchFood-ForPetApp/SearchFood-ForPet/SearchFoodForPet.csproj
+script:
+ - dotnet build ./SearchFood-ForPetApp/SearchFood-ForPet/SearchFoodForPet.csproj --configuration Release
+ - dotnet test ./SearchFood-ForPetApp/SearchFood-ForPet.Tests/SearchFoodForPet.Tests.csproj --configuration Release
