@@ -13,7 +13,7 @@ namespace SearchFoodForPet
             double[][] trainData = _trainingData.LoadData();
             //New Pet registered in the system
             List<PetHealthCondition> condition7 = new List<PetHealthCondition>() { PetHealthCondition.Healthy };
-            PetModel pet11 = new PetModel(11, 10, 40, PetAge.Puppy, PetBreedSize.Small, PetSex.Male, PetActivityLevel.High, condition7);
+            PetModel pet11 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 40, PetAge.Puppy, PetBreedSize.Small, PetSex.Male, PetActivityLevel.High, condition7);
 
             int numClasses = 10;
 
@@ -22,7 +22,7 @@ namespace SearchFoodForPet
 
             int k = 1;
             Console.WriteLine("With k = 1");
-            int predicted = _obj.RecommendFood(newPet, trainData, numClasses, k);
+            var predicted = _obj.RecommendFood(newPet, trainData, numClasses, k);
             Console.WriteLine("\nPredicted Food = " + predicted);
             Console.WriteLine("");
 

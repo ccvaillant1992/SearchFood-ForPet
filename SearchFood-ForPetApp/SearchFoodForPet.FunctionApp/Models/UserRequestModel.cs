@@ -1,12 +1,12 @@
-﻿namespace SearchFoodForPet.Models
+﻿using System.Collections.Generic;
+
+namespace SearchFoodForPet.FunctionApp.Models
 {
-    public class UserModel
+    public class UserRequestModel
     {
-        public Guid IdUser { get; set; }
         public string Name { get; set; }
         public string EmailUser { get; set; }
         public string Location { get; set; }
         public List<string> PetNames { get; set; }
-        
     }
 }

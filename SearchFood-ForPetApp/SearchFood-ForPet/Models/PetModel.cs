@@ -38,16 +38,16 @@
 
     public class PetModel
     {
-        public int IdPet { get; }
-        public int IdUser { get; }
+        public Guid IdPet { get; set; }
+        public Guid IdUser { get; set; }
         public double Weight { get; set; }
         public PetAge Age { get; set; }
-        public PetBreedSize Size { get; }
-        public PetSex Sex { get; }
+        public PetBreedSize Size { get; set; }
+        public PetSex Sex { get; set; }
         public PetActivityLevel Activity { get; set; }
         public List<PetHealthCondition> HealthCondition { get; set; }
 
-        public PetModel(int idPet, int idUser, double weight, PetAge age, PetBreedSize size, PetSex sex, PetActivityLevel activity, List<PetHealthCondition> conditions)
+        public PetModel(Guid idPet, Guid idUser, double weight, PetAge age, PetBreedSize size, PetSex sex, PetActivityLevel activity, List<PetHealthCondition> conditions)
         {
             IdPet = idPet;
             IdUser = idUser;
@@ -58,5 +58,7 @@
             Activity = activity;
             HealthCondition = conditions;
         }
+
+        public PetModel() { }
     }
 }

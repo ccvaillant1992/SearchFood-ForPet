@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFoodForPet", "SearchF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFoodForPet.Tests", "SearchFood-ForPet.Tests\SearchFoodForPet.Tests.csproj", "{20D86CEF-B931-4EB1-B158-239ECE3F468D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFoodForPet.FunctionApp", "SearchFoodForPet.FunctionApp\SearchFoodForPet.FunctionApp.csproj", "{17C436B7-0B11-4A08-A33C-D2BE8EA91D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFoodForPet.FunctionApp.Tests", "SearchFoodForPet.FunctionApp.Tests\SearchFoodForPet.FunctionApp.Tests.csproj", "{2E4313A7-891E-48D1-9681-886286CC72E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{20D86CEF-B931-4EB1-B158-239ECE3F468D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20D86CEF-B931-4EB1-B158-239ECE3F468D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20D86CEF-B931-4EB1-B158-239ECE3F468D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C436B7-0B11-4A08-A33C-D2BE8EA91D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C436B7-0B11-4A08-A33C-D2BE8EA91D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C436B7-0B11-4A08-A33C-D2BE8EA91D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C436B7-0B11-4A08-A33C-D2BE8EA91D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4313A7-891E-48D1-9681-886286CC72E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4313A7-891E-48D1-9681-886286CC72E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4313A7-891E-48D1-9681-886286CC72E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4313A7-891E-48D1-9681-886286CC72E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

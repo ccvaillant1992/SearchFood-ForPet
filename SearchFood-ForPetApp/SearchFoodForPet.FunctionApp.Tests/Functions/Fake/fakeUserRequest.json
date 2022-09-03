@@ -1,0 +1,8 @@
+{
+  "name": "Laura",
+  "emailUser": "laura@gmail.com",
+  "location": "string",
+  "petNames": [
+    "Yuki"
+  ]
+}

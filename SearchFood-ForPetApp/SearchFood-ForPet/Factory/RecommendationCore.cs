@@ -1,9 +1,11 @@
-﻿namespace SearchFoodForPet.Factory
+﻿using SearchFoodForPet.Data;
+using SearchFoodForPet.Models;
+
+namespace SearchFoodForPet.Factory
 {
     public class RecommendationCore
     {
-
-        public int RecommendFood(double[] newPet, double[][] trainingData, int numClasses, int k)
+       public int RecommendFood(double[] newPet, double[][] trainingData, int numClasses, int k)
         {
             //Compute and store distances from the new pet to all pets store in train data 
             int n = trainingData.Length;

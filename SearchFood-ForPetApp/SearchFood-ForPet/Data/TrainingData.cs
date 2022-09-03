@@ -4,6 +4,8 @@ namespace SearchFoodForPet.Data
 {
     public class TrainingData
     {
+       
+        public TrainingData() {}
         //Training Dataset
         public double[][] LoadData()
         {
@@ -21,7 +23,7 @@ namespace SearchFoodForPet.Data
             
             return data;
         }
-
+        
         //List of conditions
         private static List<PetHealthCondition> condition1 = new List<PetHealthCondition>() {PetHealthCondition.Allergy};
         private static List<PetHealthCondition> condition2 = new List<PetHealthCondition>() { PetHealthCondition.Digestive, PetHealthCondition.Sterilized };
@@ -32,27 +34,45 @@ namespace SearchFoodForPet.Data
         private static List<PetHealthCondition> condition7 = new List<PetHealthCondition>() { PetHealthCondition.JointReinforcement };
 
         //Pets
-        public  PetModel pet1 = new PetModel(1, 1, 50, PetAge.Junior , PetBreedSize.Medium, PetSex.Feminine, PetActivityLevel.High,condition4 );
-        public  PetModel pet2 = new PetModel(2, 2, 30, PetAge.Senior, PetBreedSize.Medium, PetSex.Male, PetActivityLevel.High, condition6);
-        public  PetModel pet3 = new PetModel(3, 3, 40, PetAge.Junior, PetBreedSize.Medium, PetSex.Feminine, PetActivityLevel.Low,condition7);
-        public  PetModel pet4 = new PetModel(4, 4, 25, PetAge.Puppy, PetBreedSize.Small, PetSex.Feminine, PetActivityLevel.High, condition1);
-        public  PetModel pet5 = new PetModel(5, 5, 30, PetAge.Senior, PetBreedSize.Medium, PetSex.Male, PetActivityLevel.Medium, condition2);
-        public  PetModel pet6 = new PetModel(6, 6, 35, PetAge.Senior, PetBreedSize.Small, PetSex.Male, PetActivityLevel.Medium, condition3);
-        public  PetModel pet7 = new PetModel(7, 7, 20, PetAge.Puppy, PetBreedSize.Small, PetSex.Feminine, PetActivityLevel.High, condition5);
-        public  PetModel pet8 = new PetModel(8, 8, 60, PetAge.Senior, PetBreedSize.Large, PetSex.Male, PetActivityLevel.Low, condition4);
-        public  PetModel pet9 = new PetModel(9, 9, 30, PetAge.Junior, PetBreedSize.Medium, PetSex.Feminine, PetActivityLevel.Medium, condition1);
-        public  PetModel pet10 = new PetModel(10, 10, 40, PetAge.Senior, PetBreedSize.Medium, PetSex.Male, PetActivityLevel.High, condition6);
+        public  PetModel pet1 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 50, PetAge.Junior , PetBreedSize.Medium, PetSex.Feminine, PetActivityLevel.High,condition4 );
+        public  PetModel pet2 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 30, PetAge.Senior, PetBreedSize.Medium, PetSex.Male, PetActivityLevel.High, condition6);
+        public  PetModel pet3 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 40, PetAge.Junior, PetBreedSize.Medium, PetSex.Feminine, PetActivityLevel.Low,condition7);
+        public  PetModel pet4 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 25, PetAge.Puppy, PetBreedSize.Small, PetSex.Feminine, PetActivityLevel.High, condition1);
+        public  PetModel pet5 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 30, PetAge.Senior, PetBreedSize.Medium, PetSex.Male, PetActivityLevel.Medium, condition2);
+        public  PetModel pet6 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 35, PetAge.Senior, PetBreedSize.Small, PetSex.Male, PetActivityLevel.Medium, condition3);
+        public  PetModel pet7 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 20, PetAge.Puppy, PetBreedSize.Small, PetSex.Feminine, PetActivityLevel.High, condition5);
+        public  PetModel pet8 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 60, PetAge.Senior, PetBreedSize.Large, PetSex.Male, PetActivityLevel.Low, condition4);
+        public  PetModel pet9 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 30, PetAge.Junior, PetBreedSize.Medium, PetSex.Feminine, PetActivityLevel.Medium, condition1);
+        public  PetModel pet10 = new PetModel(Guid.NewGuid(), Guid.NewGuid(), 40, PetAge.Senior, PetBreedSize.Medium, PetSex.Male, PetActivityLevel.High, condition6);
 
         //Foods
-        public  FoodModel food1 = new FoodModel(1, PetBreedSize.Small, PetHealthCondition.Allergy, DietType.Natural, FoodKind.Dry, FoodTaste.Chicken);
-        public  FoodModel food2 = new FoodModel(2, PetBreedSize.Medium, PetHealthCondition.Digestive, DietType.NonCereals, FoodKind.Wet, FoodTaste.Pork);
-        public  FoodModel food3 = new FoodModel(3, PetBreedSize.Large, PetHealthCondition.HairAndSkin, DietType.WithProtein, FoodKind.Dry, FoodTaste.Tuna);
-        public  FoodModel food4 = new FoodModel(4, PetBreedSize.Small, PetHealthCondition.Healthy, DietType.WithProtein, FoodKind.Homemade, FoodTaste.Vegetable);
-        public  FoodModel food5 = new FoodModel(5, PetBreedSize.Medium, PetHealthCondition.JointReinforcement, DietType.WithProtein, FoodKind.Wet, FoodTaste.Chicken);
-        public  FoodModel food6 = new FoodModel(6, PetBreedSize.Large, PetHealthCondition.Sterilized, DietType.Natural, FoodKind.Dry, FoodTaste.Pork);
-        public  FoodModel food7 = new FoodModel(7, PetBreedSize.Small, PetHealthCondition.Urinary, DietType.Natural, FoodKind.Wet, FoodTaste.Chicken);
-        public  FoodModel food8 = new FoodModel(8, PetBreedSize.Medium, PetHealthCondition.WeightControl, DietType.NonGluten, FoodKind.Dry, FoodTaste.Vegetable);
-        public  FoodModel food9 = new FoodModel(9, PetBreedSize.Large, PetHealthCondition.Healthy, DietType.Natural, FoodKind.Raw, FoodTaste.Tuna);
-        public  FoodModel food10 = new FoodModel(10, PetBreedSize.Small, PetHealthCondition.JointReinforcement, DietType.WithProtein, FoodKind.Dry, FoodTaste.Chicken);
+        static FoodModel food1 = new FoodModel(1, PetBreedSize.Small, PetHealthCondition.Allergy, DietType.Natural, FoodKind.Dry, FoodTaste.Chicken);
+        static FoodModel food2 = new FoodModel(2, PetBreedSize.Medium, PetHealthCondition.Digestive, DietType.NonCereals, FoodKind.Wet, FoodTaste.Pork);
+        static FoodModel food3 = new FoodModel(3, PetBreedSize.Large, PetHealthCondition.HairAndSkin, DietType.WithProtein, FoodKind.Dry, FoodTaste.Tuna);
+        static FoodModel food4 = new FoodModel(4, PetBreedSize.Small, PetHealthCondition.Healthy, DietType.WithProtein, FoodKind.Homemade, FoodTaste.Vegetable);
+        static FoodModel food5 = new FoodModel(5, PetBreedSize.Medium, PetHealthCondition.JointReinforcement, DietType.WithProtein, FoodKind.Wet, FoodTaste.Chicken);
+        static FoodModel food6 = new FoodModel(6, PetBreedSize.Large, PetHealthCondition.Sterilized, DietType.Natural, FoodKind.Dry, FoodTaste.Pork);
+        static FoodModel food7 = new FoodModel(7, PetBreedSize.Small, PetHealthCondition.Urinary, DietType.Natural, FoodKind.Wet, FoodTaste.Chicken);
+        static FoodModel food8 = new FoodModel(8, PetBreedSize.Medium, PetHealthCondition.WeightControl, DietType.NonGluten, FoodKind.Dry, FoodTaste.Vegetable);
+        static FoodModel food9 = new FoodModel(9, PetBreedSize.Large, PetHealthCondition.Healthy, DietType.Natural, FoodKind.Raw, FoodTaste.Tuna);
+        static FoodModel food10 = new FoodModel(10, PetBreedSize.Small, PetHealthCondition.JointReinforcement, DietType.WithProtein, FoodKind.Dry, FoodTaste.Chicken);
+
+
+        public List<FoodModel> Foodlists = new List<FoodModel>()
+        {
+            food1,
+            food2,
+            food3,
+            food4,
+            food5,
+            food6,
+            food7,
+            food8,
+            food9,
+            food10,
+        };
+        
+
     }
+    
 }
