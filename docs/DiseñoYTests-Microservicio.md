@@ -1,13 +1,13 @@
 ## Framework elegido para el microservicio
 
-Para el desarrollo de la API RESt de mi proyecto he utilizado Azure Functions. 
+Para el desarrollo de la API REST de mi proyecto he utilizado Azure Functions. 
 
 |**Nombre** |**Valor** |
 |-----------|----------|
 |Lenguaje   | C#       |
 |Plantilla  | HTTP Triguer with Open API|
 
-Entre las tecnologías más usadas en proyectos desarrollados con .Net Core, se encuentran: ASP.NET Core Web API y Azure functions. 
+Entre las tecnologías más usadas en proyectos desarrollados con .Net Core para API, se encuentran: ASP.NET Core Web API y Azure functions. 
 
 - ¿Por qué he elegido Azure Functions?
 
@@ -29,7 +29,7 @@ Swagger es una herramienta de código abierto que brinda facilidades para diseñ
 Para obtener más información acerca de Swagger,consulte este [enlace](https://swagger.io/solutions/getting-started-with-oas/)
 
 ## Buenas Prácticas
-Con el objetivo de crear un software de calidad, confiable y fácil de mantener, se han implementado a continuación un conjunto de buenas practicas:
+Con el objetivo de crear un software de calidad, confiable y fácil de mantener, se han implementado a continuación un conjunto de buenas prácticas:
 - Se ha evitado implementar funciones muy complejas y de larga duración. Cada función tiende al principio de responsabilidad única.
 - Los puntos de conexión empleados en la API siguen en el nombre, el patrón tradicional de nomenclatura de API: acción/recurso, ejemplo: api/searfoodapp/user
 - Se han utilizado versiones de frameworks estabes y oficiales del proveedor, ejemplo: net6

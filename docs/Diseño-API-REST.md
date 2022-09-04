@@ -8,6 +8,7 @@
 ### Add Pets
 
 - Request body -> Características de la mascota
+```
 {
   "idUser": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
   "weight": 0,
@@ -19,6 +20,7 @@
     1
   ]
 }
+```
 - Returns -> Status Code 200
 ```
 {
@@ -40,6 +42,7 @@
 ## Recommendations
 
 - Request body -> Mascota para la cual se quiere obtener una recomendación
+```
 {
   "idPet": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
   "idUser": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
@@ -52,6 +55,7 @@
     1
   ]
 }
+```
 - Returns -> Status Code 200
 ```
 {
@@ -99,6 +103,7 @@
 ### Add Users
 
 - Request body -> Información básica del usuario
+```
 {
   "name": "Laura",
   "emailUser": "laura@gmail.com",
@@ -107,6 +112,7 @@
     "Yuki"
   ]
 }
+```
 - Returns -> Status Code 200
 ```
 {
