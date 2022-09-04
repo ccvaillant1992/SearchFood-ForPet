@@ -73,7 +73,7 @@ _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas
 
 > R1, R3 y R4 se hayan contempladas en la documentación anterior.
 
-#### R2 [Diseño de la API REST](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/Diseño-API-REST.md)
+#### R2 [Diseño de la API REST](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/Diseño-API-REST.md)
 
 #### R5 [Tests en relación con las HUs](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/TestsAPI.md)
 
