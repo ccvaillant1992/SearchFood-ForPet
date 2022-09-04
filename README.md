@@ -7,9 +7,17 @@
 _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas para mascotas. Este sistema ayuda a sus usuarios a adquirir los tipos alimentos apropiados para sus mascotas entre la gran variedad ofertada. 
 [Acceda a este enlace, para seguir leyendo sobre la lógica de negocio](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/LógicaNegocioDelProyecto.md) 
 
-- Para hacer uso de la aplicación ejecute el siguiente comando:
+- Para la compilación y testeo de la aplicación ejecute el siguiente comando:
 
-> dotnet cake
+> dotnet cake build.cake
+
+- Para hacer uso de la aplicación de consola, ejecute el siguiente comando:
+
+> dotnet run
+
+- Para hacer uso de la aplicación API REST, ejecute el siguiente comando:
+
+> dotnet run
 
 ## **Descripción del problema a resolver y usos de git y GitHub** :
 
@@ -58,6 +66,16 @@ _**SearchFood-ForPet**_ es un sistema de recomendación de dietas personalizadas
 #### R2 [Integración Continua a través de GitHub Container Registry](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/PublicaciónContenedor-GitHubContainerRegistry.md)
 
 > R3 y R4 se hayan contempladas en el desarrollo de las rúbricas R1 y R2
+
+## **Diseño y test de un microservicio** :
+
+#### [Documentación](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/DiseñoYTests-Microservicio.md)
+
+> R1, R3 y R4 se hayan contempladas en la documentación anterior.
+
+#### R2 [Diseño de la API REST](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/Diseño-API-REST)
+
+#### R5 [Tests en relación con las HUs](https://github.com/ccvaillant1992/SearchFood-ForPet/blob/master/docs/TestsAPI.md)
 
 ## Licencia
 * [Licencia](LICENSE)
